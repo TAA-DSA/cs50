@@ -4,8 +4,31 @@
   box-sizing: border-box;
 }
 
-.form-container {
+.header {
   display: flex;
   justify-content: center;
+  padding: 20px;
+}
+
+.nav-container {
+  display: flex;
+  padding: 10px;
+  justify-content: flex-end;
+}
+
+ul,
+li,
+li a {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  color: #1f1f1f;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
