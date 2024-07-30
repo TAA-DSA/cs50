@@ -8,22 +8,37 @@
   </head>
   <body>
     <div class="nav-container">
-      <nav>
+      <header>
         <ul class="nav-links">
           <li><a href="./pages/image.html">Images</a></li>
           <li><a href="./pages/advance.html">Advance</a></li>
         </ul>
-      </nav>
+      </header>
     </div>
     <div class="header">
-      <h1>Search</h1>
+      <img class="hero-image" src="./images/google.png" alt="logo" />
     </div>
     <div class="form-container">
       <form action="https://www.google.com/search">
-        <input type="text" name="q" />
-        <input type="submit" value="Google Search" />
-        <input type="submit" value="I'm feeling lucky" />
+        <input
+          class="input-bar"
+          type="text"
+          name="q"
+          placeholder="Search google or type a URL"
+        />
+        <div class="icon-container">
+          <div><img src="./images/search.png" alt="search-icon" /></div>
+          <div>
+            <img src="./images/mic.png" alt="mic" />
+            <img src="./images/googlelens.png" alt="camera" />
+          </div>
+        </div>
+        <div class="button-cointainer">
+          <input type="submit" value="Google Search" />
+          <input type="submit" value="I'm feeling lucky" />
+        </div>
       </form>
     </div>
+    <footer></footer>
   </body>
 </html>
