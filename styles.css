@@ -33,47 +33,23 @@ li {
 
 .form-container {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
-/* styling for Advance search */
-.appbar {
-  color: #d93025;
-  font-size: 20px;
-  margin: 25px 35px;
+.input-bar {
+  display: flex;
+  min-height: 44px;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 0 auto;
+  max-width: 584px;
+  width: 638px;
 }
 
-.HoCfzc {
-  float: left;
-  display: inline-block;
-  min-width: 167px;
-  min-height: 41px;
-  vertical-align: middle;
-  width: 50%;
-}
-
-.gy3Eif {
-  border-bottom: 1px solid #ebebeb;
-}
-
-.Mza7yc {
-  width: 96%;
-  margin: 40px 2% 0 45px;
-}
-
-.otByu {
-  width: 100%;
-}
-
-.lOTAE {
-  height: 30px;
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.Qy8Xkb {
-  margin: 18px 0;
-  clear: both;
-  border-top: 1px solid #ebebeb;
+.button {
+  font-size: 14px;
+  border: none;
 }
