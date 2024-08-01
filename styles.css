@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
   box-sizing: border-box;
 }
 
@@ -15,7 +16,6 @@
   display: flex;
   padding: 10px;
   justify-content: space-between;
-  /* justify-content: flex-end; */
 }
 
 ul,
@@ -26,6 +26,17 @@ li a {
   text-decoration: none;
   color: #1f1f1f;
   font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.other-language {
+  text-align: center;
+  line-height: 28px;
+  font-size: small;
+  margin-bottom: 28px;
 }
 
 li {
@@ -56,5 +67,15 @@ li {
 }
 
 .footer-container {
-  background-color: #dadce0;
+  background-color: #f2f2f2;
 }
+
+.footer-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Search icon styling */
+/* height= 20px */
+/* line-height=20px */
+/* width=20px */
