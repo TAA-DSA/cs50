@@ -49,7 +49,7 @@ li {
   align-items: center;
 }
 
-.input-bar {
+/* .input-bar {
   display: flex;
   min-height: 44px;
   background: #fff;
@@ -59,7 +59,7 @@ li {
   margin: 0 auto;
   max-width: 584px;
   width: 638px;
-}
+} */
 
 .button-container {
   display: flex;
