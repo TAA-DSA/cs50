@@ -47,6 +47,14 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 44px;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 0 auto;
+  max-width: 584px;
+  width: 638px;
 }
 
 /* .input-bar {
@@ -60,6 +68,11 @@ li {
   max-width: 584px;
   width: 638px;
 } */
+
+.icon-container {
+  display: flex;
+  align-items: center;
+}
 
 .button-container {
   display: flex;
