@@ -57,17 +57,17 @@ li {
   width: 638px;
 }
 
-/* .input-bar {
+.icon-container {
   display: flex;
-  min-height: 44px;
-  background: #fff;
-  border: 1px solid #dfe1e5;
-  box-shadow: none;
-  border-radius: 24px;
-  margin: 0 auto;
-  max-width: 584px;
-  width: 638px;
-} */
+  align-items: center;
+  justify-content: space-around;
+  width: 10%;
+}
+.input-bar {
+  border: none;
+  outline: none;
+  width: 80%;
+}
 
 .icon-container {
   display: flex;
@@ -77,7 +77,7 @@ li {
 .button-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 15px;
+  margin: 15px 0;
 }
 
 .button {
