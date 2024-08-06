@@ -7,9 +7,8 @@
 }
 
 .header {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
+  position: relative;
+  height: 92px;
 }
 
 .nav-container {
@@ -113,6 +112,15 @@ li {
   display: flex;
   justify-content: space-evenly;
   padding: 15px 20px;
+}
+
+.image-logo {
+  color: #4285f4;
+  font: 16px / 16px Arial, sans-serif;
+  position: absolute;
+  left: 215px;
+  bottom: 0;
+  white-space: nowrap;
 }
 
 /* Search icon styling */
