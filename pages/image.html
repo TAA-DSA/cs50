@@ -3,9 +3,104 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Image Search</title>
+    <title>Search</title>
+    <link rel="stylesheet" type="text/css" href="../styles.css" />
   </head>
   <body>
-    <h1>Hello Image</h1>
+    <div class="nav-container">
+      <div class="header">
+        <ul class="nav-links">
+          <li>
+            <a
+              href="https://about.google/?fg=1&utm_source=google-CA&utm_medium=referral&utm_campaign=hp-header"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://store.google.com/CA/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-GB&pli=1"
+              >Store</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="header">
+        <ul class="nav-links">
+          <li><a href="#">Gmail</a></li>
+          <li><a href="./pages/image.html">Images</a></li>
+          <li><a href="./pages/advance.html">Advance</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="hero-section">
+      <div class="header">
+        <img class="hero-image" src="./images/google.png" alt="logo" />
+      </div>
+      <form action="https://www.google.com/search" method="get">
+        <div class="form-container">
+          <div><img src="./images/search.png" alt="search-icon" /></div>
+          <input class="input-bar" type="text" name="q" />
+          <div class="icon-container">
+            <img src="./images/mic.png" alt="mic" />
+            <img src="./images/googlelens.png" alt="camera" />
+          </div>
+        </div>
+
+        <div class="button-container">
+          <input class="button" type="submit" value="Google Search" />
+          <input class="button" type="submit" value="I'm feeling lucky" />
+        </div>
+        <div class="other-language">
+          Google offered in :
+          <a
+            href="https://www.google.com/setprefs?sig=0_GW8IIvNaBvJMXku4M5m0dR9fC7c%3D&amp;hl=fr&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwj1muGS_L2HAxVsmIkEHfdpC9oQ2ZgBCCI"
+            >Français</a
+          >
+        </div>
+      </form>
+    </div>
+    <div class="footer-container">
+      <div class="footer-country">Canada</div>
+      <div class="footer-nav">
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://ads.google.com/intl/en_ca/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+                >Advertising</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://smallbusiness.withgoogle.com/intl/en_ca/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=CA#!/"
+                >Business</a
+              >
+            </li>
+            <li>
+              <a href="https://www.google.com/search/howsearchworks/?fg=1"
+                >How search works</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a href="https://policies.google.com/privacy?hl=en-CA&fg=1"
+                >Privacy</a
+              >
+            </li>
+            <li>
+              <a href="https://policies.google.com/terms?hl=en-CA&fg=1"
+                >Terms</a
+              >
+            </li>
+            <li>Settings</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
