@@ -9,6 +9,7 @@
 .header {
   position: relative;
   height: 92px;
+  margin-bottom: 15px;
 }
 
 .nav-container {
