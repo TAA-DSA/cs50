@@ -16,6 +16,7 @@
   display: flex;
   padding: 10px;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 ul,
@@ -123,6 +124,12 @@ li {
   left: 215px;
   bottom: 0;
   white-space: nowrap;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
 }
 
 /* Search icon styling */
