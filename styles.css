@@ -162,3 +162,13 @@ li {
   font-weight: 500;
   color: #333;
 }
+
+.form-element-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.end-line {
+  border-bottom: 1px solid #ebebeb;
+}
