@@ -2,13 +2,11 @@
   padding: 0;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
   box-sizing: border-box;
 }
 
 .header {
   position: relative;
-  height: 92px;
   margin-bottom: 15px;
 }
 
@@ -72,6 +70,7 @@ li {
   justify-content: space-around;
   width: 10%;
 }
+
 .input-bar {
   border: none;
   outline: none;
@@ -133,50 +132,33 @@ li {
 }
 
 .banner {
-  height: 22px;
+  height: 25px;
 }
 
-.appbar {
+.title-container {
   color: #d93025;
   font-size: 20px;
   margin: 25px 35px;
 }
 
-.HoCfzc {
-  float: left;
-  display: inline-block;
-  min-width: 167px;
-  min-height: 41px;
-  vertical-align: middle;
-  width: 50%;
-}
-
-.gy3Eif {
+.underline {
   border-bottom: 1px solid #ebebeb;
 }
 
-.Mza7yc {
+.form-section {
+  max-width: 1140px;
+  min-width: 200px;
   width: 96%;
   margin: 40px 2% 0 45px;
 }
 
-.otByu {
-  width: 100%;
+.form-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 45px;
+  min-width: 167px;
+  font-size: 16px;
+  min-height: 42px;
+  font-weight: 500;
+  color: #333;
 }
-
-.lOTAE {
-  height: 30px;
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.Qy8Xkb {
-  margin: 18px 0;
-  clear: both;
-  border-top: 1px solid #ebebeb;
-}
-
-/* Search icon styling */
-/* height= 20px */
-/* line-height=20px */
-/* width=20px */
