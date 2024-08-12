@@ -164,9 +164,73 @@ li {
 }
 
 .form-element-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+}
+
+.form-label {
+  float: left;
+  display: inline-block;
+  min-width: 167px;
+  width: 16%;
+  height: 42px;
+  color: #222;
+  font-size: 13px;
+  line-height: 16px;
+  vertical-align: middle;
+}
+
+.right-label {
+  height: 30px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.form-input-section {
+  float: left;
+  display: inline-block;
+  min-width: 167px;
+  min-height: 41px;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.input-field {
+  padding-right: 16px;
+}
+
+.input-bar {
+  width: 100%;
+  text-align: left;
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+}
+.left-message-container {
+  float: left;
+  display: inline-block;
+  width: 32%;
+  min-width: 160px;
+  margin: 0 0 8px 1%;
+  color: #555;
+  font-size: 11px;
+  padding-left: 5px;
+  vertical-align: middle;
+  position: relative;
+}
+
+.left-message {
+  height: 30px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.span-text {
+  color: #666;
+  font-family: monospace;
+  font-size: 11px;
+  white-space: pre;
 }
 
 .end-line {
