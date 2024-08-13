@@ -164,6 +164,8 @@ li {
 }
 
 .form-element-container {
+  width: 100%;
+  clear: both;
 }
 
 .form-label {
@@ -207,6 +209,7 @@ li {
   height: 25px;
   padding: 1px 8px;
 }
+
 .left-message-container {
   float: left;
   display: inline-block;
@@ -231,6 +234,22 @@ li {
   font-family: monospace;
   font-size: 11px;
   white-space: pre;
+}
+
+.range-field {
+  display: table;
+  padding-right: 16px;
+  width: 50%;
+}
+
+.connecting-text {
+  display: table-cell;
+  width: 40px;
+  padding-right: 6px;
+  padding-left: 6px;
+  text-align: center;
+  font-size: 13px;
+  color: #202124;
 }
 
 .end-line {
