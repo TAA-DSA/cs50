@@ -237,7 +237,7 @@ li {
 }
 
 .range-field {
-  display: table;
+  display: table-cell;
   padding-right: 16px;
 }
 
