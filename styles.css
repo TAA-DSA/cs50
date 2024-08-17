@@ -188,7 +188,6 @@ li {
 
 .form-input-section {
   float: left;
-  display: inline-block;
   min-width: 167px;
   min-height: 41px;
   vertical-align: middle;
@@ -252,8 +251,9 @@ li {
 }
 
 .end-line {
-  margin-top: 15px;
+  margin: 18px 0;
   border-bottom: 1px solid #ebebeb;
+  clear: both;
 }
 
 .btn {
@@ -271,4 +271,8 @@ li {
   font-size: 11px;
   font-weight: bold;
   text-align: center;
+}
+
+input[type='hidden' i] {
+  display: none !important;
 }
