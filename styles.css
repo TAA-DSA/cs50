@@ -153,14 +153,15 @@ li {
 }
 
 .form-heading {
-  display: flex;
-  justify-content: space-between;
-  margin-right: 45px;
+  float: left;
+  display: inline-block;
   min-width: 167px;
+  min-width: 16%;
   font-size: 16px;
   min-height: 42px;
   font-weight: 500;
   color: #333;
+  vertical-align: middle;
 }
 
 .form-element-container {
@@ -271,6 +272,17 @@ li {
   font-size: 11px;
   font-weight: bold;
   text-align: center;
+}
+
+.left-heading {
+  float: left;
+  display: inline-block;
+  width: 33%;
+  font-size: 13px;
+  font-weight: 700;
+  color: #777;
+  padding-left: 5px;
+  vertical-align: middle;
 }
 
 input[type='hidden' i] {
