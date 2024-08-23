@@ -41,11 +41,25 @@
 
       <form action="https://www.google.com/search" method="get">
         <div class="form-container">
-          <div><img src="./images/search.png" alt="search-icon" /></div>
-          <textarea class="input-bar" type="text" name="q"></textarea>
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              padding-right: 13px;
+              padding-left: 14px;
+              height: 46px;
+            "
+          >
+            <img src="./images/search.png" alt="search-icon" />
+          </div>
+          <textarea class="" type="text" name="q"></textarea>
           <div class="icon-container">
-            <img src="./images/mic.png" alt="mic" />
-            <img src="./images/googlelens.png" alt="camera" />
+            <div class="icon-container--image">
+              <img src="./images/mic.png" alt="mic" />
+            </div>
+            <div class="icon-container-image">
+              <img src="./images/googlelens.png" alt="camera" />
+            </div>
           </div>
         </div>
 

@@ -78,8 +78,9 @@ li {
 }
 
 .icon-container {
-  display: flex;
-  align-items: center;
+  flex: 0 0 auto;
+  align-items: stretch;
+  flex-direction: row;
 }
 
 .button-container {
@@ -203,8 +204,8 @@ li {
   width: 100%;
   text-align: left;
   border-radius: 1px;
-  /* border: 1px solid #d9d9d9;
-  border-top: 1px solid #c0c0c0; */
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
   font-size: 13px;
   height: 25px;
   padding: 1px 8px;
@@ -287,4 +288,29 @@ li {
 
 input[type='hidden' i] {
   display: none !important;
+}
+
+.icon-container--image {
+  flex: 1 0 auto;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border: 0;
+  background-color: transparent;
+  outline: none;
+  padding: 0 8px;
+  width: 24px;
+  line-height: 44px;
+}
+
+textarea {
+  resize: none;
+  background-color: transparent;
+  border: none;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  font-size: 16px;
+  flex: 100%;
 }
