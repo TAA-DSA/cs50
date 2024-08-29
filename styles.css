@@ -303,7 +303,7 @@ input[type='hidden' i] {
   line-height: 44px;
 }
 
-textarea {
+/* textarea {
   resize: none;
   background-color: transparent;
   border: none;
@@ -313,4 +313,17 @@ textarea {
   display: flex;
   font-size: 16px;
   flex: 100%;
+} */
+
+.text-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.YacQv {
+  color: transparent;
+  white-space: pre;
+  position: absolute;
+  pointer-events: none;
 }
