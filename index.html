@@ -50,55 +50,70 @@
       <div class="header">
         <img class="hero-image" src="./images/google.png" alt="logo" />
       </div>
+      <div class="form-main">
+        <form action="https://www.google.com/search" method="get">
+          <div class="form-main-elements">
+            <div class="form__main-elements--container">
+              <div class="elements__container">
+                <div class="elements__container--search">
+                  <span
+                    class="material-symbols-outlined search--size"
+                    style="color: #9aaba6"
+                  >
+                    search
+                  </span>
+                </div>
 
-      <form action="https://www.google.com/search" method="get">
-        <div class="form-container">
-          <div
-            style="
-              display: flex;
-              align-items: center;
-              padding-right: 13px;
-              padding-left: 14px;
-              height: 46px;
-            "
-          >
-            <div class="height:20px; width:20px; line-height:20px;">
-              <span class="material-symbols-outlined" style="color: #9aaba6">
-                search
-              </span>
-              <!-- <img src="./images/search.png" alt="search-icon" /> -->
+                <div class="text__container">
+                  <div class="text__container--divider"></div>
+                  <textarea
+                    style="
+                      display: flex;
+                      flex: 100%;
+                      font-size: 16px;
+                      letter-spacing: 2px;
+                      border: none;
+                      outline: none;
+                      padding: 5px;
+                    "
+                    type="text"
+                    name="q"
+                  ></textarea>
+                </div>
+
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    padding-right: 13px;
+                    padding-left: 14px;
+                  "
+                >
+                  <div style="padding-right: 13px">
+                    <span class="material-symbols-outlined"> mic </span>
+                  </div>
+                  <div class="">
+                    <span class="material-symbols-outlined">
+                      photo_camera
+                    </span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-
-          <div class="text-container">
-            <div class="YacQv"></div>
-            <textarea class="" type="text" name="q"></textarea>
+          <div class="button-container">
+            <input class="button" type="submit" value="Google Search" />
+            <input class="button" type="submit" value="I'm feeling lucky" />
           </div>
-
-          <div class="icon-container">
-            <div class="icon-container--image">
-              <span class="material-symbols-outlined"> mic </span>
-              <img src="./images/mic.png" alt="mic" />
-            </div>
-            <div class="icon-container-image">
-              <span class="material-symbols-outlined"> photo_camera </span>
-              <!-- <img src="./images/googlelens.png" alt="camera" /> -->
-            </div>
-          </div>
-        </div>
-
-        <div class="button-container">
-          <input class="button" type="submit" value="Google Search" />
-          <input class="button" type="submit" value="I'm feeling lucky" />
-        </div>
-        <div class="other-language">
-          Google offered in :
-          <a
-            href="https://www.google.com/setprefs?sig=0_GW8IIvNaBvJMXku4M5m0dR9fC7c%3D&amp;hl=fr&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwj1muGS_L2HAxVsmIkEHfdpC9oQ2ZgBCCI"
-            >Français</a
-          >
-        </div>
-      </form>
+        </form>
+      </div>
+      <div class="other-language">
+        Google offered in :
+        <a
+          href="https://www.google.com/setprefs?sig=0_GW8IIvNaBvJMXku4M5m0dR9fC7c%3D&amp;hl=fr&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwj1muGS_L2HAxVsmIkEHfdpC9oQ2ZgBCCI"
+          >Français</a
+        >
+      </div>
     </div>
 
     <div class="footer-container">
