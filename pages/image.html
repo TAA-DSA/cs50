@@ -27,12 +27,32 @@
       <div style="padding: 20px">
         <form action="https://www.google.com/search" method="get">
           <div class="form-container">
-            <div><img src="../images/search.png" alt="search-icon" /></div>
-            <input class="input-bar" type="text" name="q" />
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                padding-right: 13px;
+                padding-left: 14px;
+              "
+            >
+              <span><img src="../images/search.png" alt="search-icon" /></span>
+            </div>
+            <input
+              style="
+                width: 80%;
+                text-align: left;
+                font-size: 16px;
+                padding: 1px 8px;
+                border: none;
+                outline: none;
+              "
+              type="text"
+              name="q"
+            />
             <input type="hidden" name="tbm" value="isch" />
             <div class="icon-container">
-              <img src="../images/mic.png" alt="mic" />
-              <img src="../images/googlelens.png" alt="camera" />
+              <span><img src="../images/mic.png" alt="mic" /></span>
+              <span><img src="../images/googlelens.png" alt="camera" /></span>
             </div>
           </div>
           <div class="button__container">
